@@ -1,3 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 100px;
+}
+
+.articles article {
+    width: 30%;
+}
+
 #sports {
     color: green;
 }
@@ -11,5 +40,5 @@
 }
 
 #technology {
-    color: blue;
+    color: orange;
 }
